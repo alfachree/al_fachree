@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Musik</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      table {
+        border: 1px solid black;
+        width: 100vw;
+        text-align: center;
+      }
+
+      td {
+        border: 1px solid black;
+      }
+
+      #header {
+        height: 15vh;
+        background-color: white;
+        font-size: 2em;
+      }
+
+      #tagline td {
+        height: 10vh;
+        align-content: start;
+      }
+
+      #navbar {
+        height: 4vh;
+        background-color: #181818;
+        color: white;
+      }
+
+      #navbar a {
+        text-decoration: none;
+        background-color: #181818;
+        color: white;
+      }
+
+      #main {
+        height: 50vh;
+        padding-top: 10px;
+      }
+
+      #main td {
+        align-content: start;
+        padding-top: 10vh;
+      }
+
+      #footer {
+        height: 3vh;
+        background-color: #181818;
+        color: gainsboro;
+      }
+
+      #navbar td:hover {
+        color: black;
+        background-color: gainsboro;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr id="header">
+        <td colspan="5"><h1>fadiil.com</h1></td>
+      </tr>
+      <tr id="tagline">
+        <td colspan="5">
+          <p><i>Nyantri, Ngaji, Ngabdi, Always happy 😋</i></p>
+        </td>
+      </tr>
+      <tr id="navbar">
+        <td><a href="index.html">Beranda</a></td>
+        <td><a href="foto.html">foto</a></td>
+        <td><a href="musik.html">Musik</a></td>
+        <td><a href="video.html">Video</a></td>
+        <td><a href="kontak.html">Kontak</a></td>
+      </tr>
+      <tr id="main">
+        <td colspan="5">
+          <h3>Playlist Musik</h3>
+          <table>
+            <tr>
+              <td>
+                <audio controls src=""></audio>
+                <p>Audio 1</p>
+              </td>
+              <td>
+                <audio controls src=""></audio>
+                <p>Audio 2</p>
+              </td>
+              <td>
+                <audio controls src=""></audio>
+                <p>Audio 3</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr id="footer">
+        <td colspan="5">
+          <small>&copy; 2024 | All Rights Reserved</small>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
